@@ -9,3 +9,5 @@ start_time = time.time()
 clf.partial_fit(x,y)
 elapsed_time = time.time() - start_time
 print(elapsed_time)
+clf.partial_fit(x,y)
+print(elapsed_time)
